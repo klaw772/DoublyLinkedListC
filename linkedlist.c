@@ -80,8 +80,7 @@ int main()
   for (int i = 0; i < 5; i++){ //iterate through array and set the values of the array into a linked list
     makeInitialLinkedList(y[i]);
   }
-  printf("Welcome to the doubly linked list of death!\n"); //lol
-  printf("we hate ourselves lol\n"); //tru
+  printf("Welcome to the program");
   printy(); //print initial linked list
   while (x = getchar() != EOF){ //this is not functional yet but should detect ctrl+d
     printf("Choose an option below by typing the appropriate number, or press Ctrl+D to quit.\n"); //main menu
